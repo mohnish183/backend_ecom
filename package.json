@@ -1,0 +1,18 @@
+{
+  "scripts": {
+    "start": "node index.jsx",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "init": "^0.1.2",
+    "node": "^21.6.1",
+    "nodemon": "^3.0.3",
+    "Router": "^2.1.0",
+    "routes": "^2.1.0",
+    "run": "^1.5.0",
+    "script": "^0.1.4"
+  }
+}
