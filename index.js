@@ -1,5 +1,5 @@
 const express = require("express");
-const bcrypt = require("bcrypt");
+
 const app = express();
 const routes = require("./route");
 const route = require("./JWT_/UserRoutes");
@@ -10,6 +10,7 @@ app.use(
     origin: "*",
   })
 );
+
 app.use(express.json()); // body-parser
 app.use(express.urlencoded({ extended: true })); // help to handle
 app.use("/api", routes);

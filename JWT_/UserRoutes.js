@@ -1,6 +1,6 @@
 const express = require("express");
 const route = express.Router();
-const bcrypt = require("bcrypt");
+const bcrypt = require("bcryptjs");
 const secretkey = "mohnish";
 // const secretkey = process.env.SECRETKEY;
 const jwt = require("jsonwebtoken");
